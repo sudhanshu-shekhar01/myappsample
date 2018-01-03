@@ -202,7 +202,6 @@ function runEvent(e)
 {
     console.log("Event type: "+ e.type);
     output.innerHTML = '<h3> MouseX: ' +e.offsetX+ '</h3> <h3> MouseY: ' +e.offsetY+ ' </h3>';
-
     box.style.background ='rgb('+e.offsetX+','+e.offsetY+', 40 )';
 }
 
